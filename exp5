@@ -1,0 +1,44 @@
+EX NO 2D :  C PROGRAM TO FIND FACTORIAL OF THE GIVEN NUMBER.
+DATE : 01-05-2025
+ 
+AIM: 
+To write a program to find factorial of the given number
+ 
+ALGORITHM: 
+1. Start. 
+2. Declare the variables. 
+3. Prompt the user to enter a value. 
+4. Read the value using scanf. 
+5. Enter factorial of the number. 
+6. End.
+
+PROGRAM: 
+#include <stdio.h> 
+int main() { 
+    int n, i; 
+    unsigned long long factorial = 1; 
+    scanf("%d", &n); 
+ 
+    if (n < 0) { 
+        printf("Factorial is not defined for negative numbers.\n"); 
+    } else { 
+        for (i = 1; i <= n; i++) { 
+            factorial *= i; 
+        } 
+        printf("Factorial of %d = %llu\n", n, factorial); 
+    } 
+    return 0; 
+}
+
+INPUT 
+5
+
+OUTPUT
+120
+
+Developed by : Manoj S
+
+Register Number : 212223060154
+ 
+RESULT: 
+Thus, the program is executed and verified successfully.
